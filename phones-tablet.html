@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/kongaproject.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <!-- 
+        <style>
+        *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .konga-image-one{
+        background-image: url("images/kongaprime.png");
+        height: 50px;
+        width: 100%;
+    }
+    .konga-travel ul{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        /* margin: 30px; */
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .konga-travel ul li{
+        margin: 20px;
+        list-style: none;
+    }
+    .store ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        background-color: #ed017f;
+        height: 70px;
+    }
+    .store ul li{
+        list-style: none;
+        margin-right: 15px;
+        margin-top: 20px;
+        margin: 20px;
+        
+    }
+    .store ul li a{
+        text-decoration: none;
+        color: #fff;
+        /* margin-left: 5px; */
+    }
+    .boga{
+        width: 200px;
+        position: relative;
+        top: 0;
+        left: -4px;
+    }
+    #search{
+    width: 400px;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    }
+    
+    .store-locator:hover{
+    width: 80px;
+    height: 120px;
+    background-color: #fff;
+    padding-top: 20px;
+    color:  #ed017f ;
+    
+    }
+    
+    .store-locator a:hover{
+        color:  #ed017f ;
+    }
+    
+    .jop {
+        width: 60px;
+        padding: 8px;
+        background-color: #fba100;
+    /* border-radius: 5px;  */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    }
+    .jop li{
+        width: 60px;
+        padding: 8px;
+        background-color: #fba100;
+        color: #fff;
+    }
+    .mycart{
+        display: flex;
+        width: 150px;
+        margin: 15px;
+        margin-left: 50px;
+        /* justify-content:space-around ; */
+        background-color:rgb(50, 161, 50);
+        color: #fff;
+        font-size: 14px;
+    }
+</style>
+-->
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .motor-two{
+        width: 100%;
+        background-color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+    }
+    .pick-uptwo{
+        margin-top: 25px;
+    }
+    .home-phonetwo{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+    }
+    .home-phonetwo li{
+     list-style: none;
+     text-decoration: none:
+     
+    }
+    .home-phonetwo li a{
+     /* list-style: none; */
+     text-decoration: none:
+     
+    }
+    .pool a{
+        text-decoration: none:
+    }
+    .mag-two a{
+        text-decoration: none;
+        font-size: 12px;
+        color: gray;
+    }
+    .mag-two li a{
+        text-decoration: none:
+    }
+    .clopog{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(110, 3, 71);
+        font-weight: bold;
+    }
+    .tab-phone{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+        font-size: 20px;
+    }
+    .price-low{
+        display: flex;
+        padding: 10px;
+        font-size: 12px;
+        list-style: none;
+        margin: 2px;
+    }
+    .vaw{
+      color: gray;
+      font-weight: bold;  
+      margin-right: 8px;
+      padding: 3px;
+    }
+    .cupex{
+        border: 1px solid gray;
+        padding: 5px;
+    }
+    .wrapperer{
+        width: 100%;
+    height: 520px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /* padding-bottom: 10px; */
+    padding-top: 15px;
+    }
+    .wrapexest{
+        float: left;
+    width: 220px;
+    height: 490px;
+    box-shadow: 0px 5px 8px 0px 
+    rgba(94, 74, 74, 0.4);
+    margin-left: 15px ;
+    /* margin: 15px ; */
+    }
+    .carded{
+        width: 220px;
+    height: 490px;
+    /* padding: 10px; */
+    /* margin-top: 10px;  */
+    }
+    .offpricees{
+        position: relative;
+    top: 10px;
+width: 65px;
+height: 30px;
+padding: 8px;
+padding-bottom: 18px;
+/* text-align: center; */
+background-color: red;
+font-size: 13px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: normal;
+color: #fff;
+border-bottom-right-radius: 16px;
+border-top-right-radius: 16px;
+/* margin-top: 10px; */
+    }
+    .imagest{
+    /* padding: 8px; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.situprst{
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.current-amounted{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.old-amounted{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: initial;
+    text-decoration:line-through ;
+    color: lightgrey;
+}
+.you-savest{
+    position: relative;
+    top:22px ;
+    left: 4px;
+    font-size: 11px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(37, 87, 37);
+    margin-top: 0px;
+}
+.add-to-cart{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid deeppink;
+    color: deeppink;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="konga-image-one">
+            <img src="images/kongaprime.png" alt="" width="100%" height="50px">
+        </div>
+        <div class="konga-travel">
+            <ul>
+                <li><img src="images/k_travels2.png" alt="" width="100px" height="20px"></li>
+                <li><img src="images/konga_pay.png" alt="" width="100px" height="20px"></li>
+                <li><img src="images/new_konga_drinks.png" alt="" width="100px" height="20px" ></li>
+                <li><img src="images/konga_health.png" alt="" width="100px" height="20px" ></li>
+                <li><img src="images/k_express2.png" alt="" width="100px" height="20px" ></li>
+                <li><img src="images/new_konga_groceries.png" alt=""width="100px" height="20px" ></li>
+            </ul>
+        </div>
+        <div class="store">
+            <ul>
+                <li><a href="#"> <img src="images/konga-logo-1.png" width="60px" height="30px" style="margin-right: -20px;" class="boga"> </a> </li>
+                <li class="store-locator"> <a href=""> Store <br> Locator </a> </li>
+                <li><a href=""> Sell on <br> Konga</a></li>
+                <li> <input type="text" id="search" placeholder="Search for Products,Brands and Categoris"><span class="jop"> <img src="images/searchbutton.png" width="10px" height="10px" style="color: #fff;"> </span></li>
+                 <img src="images/questionmark.png" width="10px" height="10px" style="background-color: #ec69af; color: #fff;margin: 10px;margin-top: 27px;" > <span style="margin: 1px;margin-top: 22px;color: #fff;"> Help </span>
+                    <i class="fa fa-angle-down" style="margin: 4px;margin-top: 22px;color: #fff;"></i>
+                   <!-- / <background-color= #ed017f></background-color> -->
+                <li style="color: #fff;">Login/ <br> Signup</li>
+                <span class="mycart"><h3 style="margin:8px"><i class="fa fa-shopping-cart"></i> <h4 style="width: 20px;margin: 3px;"> My <br> Cart </h4> <p style="margin: 9px;margin-left: 56px;width: 15px;text-align: center;font-weight: bold;border-radius: 2px; background-color: #fff;color: rgb(50, 161, 50);">0</p> </li></p></span>
+            </ul>
+            <!-- <img src="images/Buy Phones, Fashion, Electronics in Nigeria _ Konga Online Shopping.png"/> -->
+        </div>
+
+    </header>
+    <article class="motor-two">
+     <div class="home-phonetwo">
+    <li class="mag-two"> <a href="kongaproject.html">Home <i class="fa fa-angle-right"><span class="clopog">   Phones and Tablets</span></i></li>
+    <li class="pool"><a href="#">NaNO results </a> </li>
+    </div>
+     <div class="tab-phone">
+         <h1>Phones And Tablets</h1>
+
+         <div class="price-low">
+         <p class="vaw">Sort By:</p>
+         <li class="cupex">Relavance</li>
+         <li class="cupex">Price - High To Low</li>
+         <li class="cupex">Price - Low To High</li>
+
+
+         </div>
+     </div>
+ </article>
+
+ 
+ <div class="wrapperer">
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div> 
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div> 
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div> 
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div> 
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div>
+  
+    
+    <div class="wrapexest">
+
+        <div class="carded">
+         <p class="offpricees"> 2% OFF </p>
+
+         <p><img src="images/situp-bench.png" width="200px" height="200px" class="imagest"></p>
+         <h3 class="situprst">5 In 1 Situp Bench-bench + 2dumbbells + 2bands + Push Up Bar</h3>
+         <p class="current-amounted">₦26,500 <span class="old-amounted">₦27,100</span> </p>
+         <p class="you-savest">Sold by Konga</p>
+         <p class="you-savest">Konga Warehouse</p>
+         <p class="you-savest"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i>1 Review</p>
+         <h2 class="add-to-cart">Add To Cart</h2>
+        </div>
+
+    </div> 
+
+
+</div>
+</section>
+
+
+<section class="pick-uptwo">
+    <p class=""> <img src="images/top-deals.png" width="100%" height="220px"  style="margin-top: 15px; margin-bottom: 15px;"></p>
+ 
+ </div>
+    <section class="emiel">
+        <div class="support">
+            <P class="jop"><i class="fa fa-envelope" style="margin-top:5px;"></i></P>
+        <!-- <img src="images/message.png" > -->
+        <h2 class="mail">EMAIL SUPPORT</h2>
+        <h4 class="helpkonga">help@konga.com</h4>
+        </div>
+ 
+        <div class="suppt">
+         <!-- <img src="" alt=""> -->
+         
+         <p class="jops">
+         <i class="fa fa-phone" style="margin-top:15px;"></i></p>
+         <h2 class="mailer">PHONE SUPPORT</h2>
+         <p class="helpkongaga">09058657887,08058657887,07058657887</p>
+         </div>
+ 
+         <div class="supp">
+             
+             <h2 class="deal">GET LATEST DEALS</h2>
+             <p class="sent">Our best promotions sent to your inbox</p>
+             </div>
+ 
+         <div class="subscribe">
+             <h3 class="subs">Email Address</h3>
+             <h3 class="cribe">Subscribe</h3>
+         </div>    
+    </section>
+ 
+    <footer class="about-kong">
+      <div class="foru">
+          <h3><a href="#">ABOUT KONGA</a></h3>
+          <ul>
+             <li><a href="#">Contact Us</a></li>
+             <li><a href="#">About Us</a></li>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Our Blog</a></li>
+             <li><a href="#">Forum</a></li>
+             <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+     </div>
+     
+ 
+     <div class="forumu">
+         <h3><a href="#">PAYMENT</a></h3>
+         <ul>
+            <li><a href="#">KongaPay</a></li>
+            <li><a href="#">Wallet</a></li>
+            <li><a href="#">Verve</a></li>
+            <li><a href="#">Mastercard</a></li>
+            <li><a href="#">Visa</a></li>
+         </ul>
+     </div>
+ 
+     <div class="forumax">
+         <h3><a href="#">BUYING ON KONGA</a></h3>
+         <ul>
+            <li><a href="#">Buyer Safty Center</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Konga Return Policy</a></li>
+            <li><a href="#">Digital Services</a></li>
+            <li><a href="#">Bulk Purchase</a></li>
+         </ul>
+    </div>
+ 
+    <div class="forumay">
+     <h3><a href="#">MORE INFO</a></h3>
+     <ul>
+        <li><a href="#">Site Map</a></li>
+        <li><a href="#">Track My Order</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Authentic Item Policy</a></li>
+        
+     </ul>
+     </div>
+     
+     <div class="foruawj">
+         <h3><a href="#">MAKE MONEY ON KONGA</a></h3>
+         <ul>
+            <li><a href="#">Become a Konga Affilliate</a></li>
+         </ul>
+    </div>
+     
+    <div class="foruawg">
+     <h3><a href="#">DOWNLOAD AND CONNECT WITH US</a></h3>
+     <div class="uplong">
+         <div class="down-on">
+             <h3 class="loadest">Download on</h3>
+             <p class="load-on"><i class="fa fa-apple"  style="font-size: 40px;color:#fff ;"></i></p>
+             <h2 class="storest">App Store</h2>
+         </div>
+ 
+         <div class="on-down">
+             <h3  class="downest" >Download on</h3>
+            <p class="load-onog"> <img src="" ><i class="fa fa-bug" style="font-size: 40px;color:#fff ;"></i></p>
+             <h2 class="storest">App Store</h2>
+         </div>
+     </div>
+ 
+     <div class="wit-us">
+         <h2>CONNECT WITH US</h2>
+         <div class="bobo">
+         <p class="jop" style="    background-color: rgb(27, 26, 26);">
+             <i class="fa fa-facebook-f" style="margin-top:8px;color:#fff;"></i></P>
+             <p class="jop" style="    background-color: rgb(27, 26, 26);">
+                 <i class="fa fa-twitter" style="margin-top:8px;color:#fff;"></i></P>
+                 <p class="jop" style="    background-color: rgb(27, 26, 26);">
+                     <i class="fa fa-envelope" style="margin-top:8px;color:#fff;"></i></P>  
+         
+                     <p class="jop" style="    background-color: rgb(27, 26, 26);">
+                         <i class="fa fa-phone" style="margin-top:8px;color:#fff;"></i></P>
+     </div>
+     </div>
+     <div class="opeyeg">
+         <div class="bordr-one"><hr/></div>
+         <div class="copright">Copy@c2021 Konga.com.All right reserved</div>
+         <div class="bordr-two"><hr/></div>
+     </div>
+    </footer>
+ 
+
+</body>
+</html>
